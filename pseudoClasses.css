@@ -1,0 +1,87 @@
+/*    Pseudo classes
+:active = quando o elemento esta ativo , ou seja ,está sendo pressionado
+:visited = selecionar o link que foi visitado
+:hover = quando o mauser passa em cima do elemento
+:checked = usado em radio / checkbox / select
+:disabled = elemento desabilidado / button / input
+:enabled = elemento esta habilitado
+:focus = é aplicado quando um elemento recebe foco , o que pode ocorrer quando um usuario seleciona um elemento 
+:read-only = seleciona input ou textarea que são apenas leitura
+:empty = elemento que não tem filho
+
+:first-child = primeiro filho - ex : primeiro li de uma ul / primeiro span de um div
+:first-of-type= primeiro elemento de seu tipo entre os filho do elemento pai
+:last-child= último filho
+:last-of-type=  último elemento do seu tipo entre os filhos do seu elemento pai
+:not() = estiliza os elemento , exeto o que esta dentro do ()
+:nth-child() = seleciona o elemento baseado na sua posição : ex- :nth-child(3)
+:nth-last-child() = seleciona o elemento baseado na sua posição , contando de traz pra frente 
+
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*a:active {
+    color: red;
+}
+
+.boladao-2:visited {
+    color: red;
+}
+
+.boladao-3:hover{
+    color: red;
+}
+
+input:checked{
+    width: 100PX;
+    height: 100PX;
+}
+
+.input-2:focus {
+    border: 1px solid red;
+    outline: none;
+}
+.input-3:read-only{
+    border: 1px solid blue;
+    outline: none;
+}
+
+.conteiner {
+    width: 100px;
+    height: 100px;
+    background: red;
+}
+
+.conteiner:empty {`
+background: #ff00ff;
+
+}
+
+li:first-child{
+    color: red;
+}
+
+span:first-of-type{
+    color: red;
+}
+
+p:first-of-type{
+    color: blue;
+}
+
+.li-1:last-child{
+    color: red;
+}
+
+.conteiner:not(p) {
+color: red;
+}*/
+
+li:nth-child(3){
+    color: red;
+}
